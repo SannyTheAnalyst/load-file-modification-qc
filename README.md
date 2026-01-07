@@ -42,3 +42,6 @@ This project simulates an eDiscovery Data Specialist workflow focused on modifyi
 
 ## Notes
 Counts vary per run because the dataset includes intentionally injected issues (missing values, invalid file types, and duplicate hashes) to demonstrate remediation and QC workflows.
+## Documentation
+- QC Summary: `docs/QC_Summary.md`
+
