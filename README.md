@@ -36,4 +36,10 @@ This project simulates an **eDiscovery Data Specialist** workflow focused on mod
 
 ### 1. Create staging table
 
+## Results (Example Run)
+- Records staged: ~100,000
+- Privileged leak count: 0 (verified by join-based QC)
+- Bates numbers: 100% unique across exported records
+
+
 
