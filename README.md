@@ -1,13 +1,16 @@
-# Load File Modification & Multi-Stream Processing Validation (SQL Server / Excel)
+# Load File Modification & QC Validation (eDiscovery Simulation)
+### Multi-stream load processing, privilege-safe production export, and Bates verification aligned to LAW / Relativity workflows
 
 ## Overview
-This project simulates an eDiscovery multi-stream intake scenario where incoming load files arrive in different formats (delimiters, column names, date formats). The objective is to modify/standardize load files and validate them for QC accuracy prior to downstream processing.
+This project simulates an eDiscovery Data Specialist workflow focused on modifying load files, validating data integrity at scale, and generating a production-ready export. It demonstrates repeatable QC checks, privilege exclusion controls, and sequential Bates numbering—core responsibilities for government and regulated eDiscovery environments.
 
-## What this demonstrates
-- Load file modification (delimiter changes, column mapping, date normalization)
-- Running multiple load streams simultaneously
-- QC validation (record counts, required fields, invalid file types, deduplication)
-- Documentation suitable for regulated / government workflows
+## What This Demonstrates
+- Load file modification and standardization (delimiters, mappings, date formats)
+- Multi-stream ingestion and reconciliation (before/after record counts)
+- QC validation (required fields, duplicates, file type checks)
+- Privilege-safe production export (zero privileged records exported)
+- Bates numbering with uniqueness verification
+
 
 ## Inputs and Outputs
 ### Original vendor files (different formats)
